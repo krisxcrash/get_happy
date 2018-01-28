@@ -41,12 +41,18 @@ a:hover,
 
 /* Homepage */
 
-.home-jumbo {
+.home-jumbo,
+.about-jumbo {
     text-align: center;
     border-radius: 0;
 }
 
-.home-header {
+.about-jumbo {
+    margin-top: 25vh;
+}
+
+.home-header,
+.about-header {
     font-size: 7em;
     margin-bottom: 5vh;
 }
@@ -56,9 +62,11 @@ a:hover,
     background: #000;
     border: 1px solid #ff33cc;
     margin: 2vh;
+    border-radius: 0;
 }
 
-.h2-header {
+.h2-header,
+.h2-about {
     margin-bottom: 3vh;
 }
 
@@ -67,6 +75,14 @@ a:hover,
     color: #fbff00;
     background: #ff33cc;
     padding: 1.5vh;
+}
+
+/* About */
+
+.arrow {
+    font-size: 6em;
+    color: #ff33cc;
+    margin-top: 155vh;
 }
 
 /* Sign Up */
