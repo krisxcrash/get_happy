@@ -20,7 +20,7 @@
     text-align: center;
     background: #fff;
     padding: 2vh;
-    margin-bottom: 15vh;
+    /* margin-bottom: 15vh; */
 }
 
 a, 
@@ -47,12 +47,22 @@ a:hover,
     text-align: center;
 }
 
+.home-jumbo {
+    background: url('https://i.pinimg.com/originals/59/02/bb/5902bbf15f314210b2268d6a3d39a439.jpg') fixed no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    padding: 25vh;
+}
+
+.home-header {
+    padding-top: 10vh;
+}
+
 .home-header,
 .about-header {
     text-transform: uppercase;
     letter-spacing: .5vh;
     font-size: 7em;
-    padding-top: 10vh;
     margin-bottom: 5vh;
 }
 
