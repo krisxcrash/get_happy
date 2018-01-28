@@ -129,19 +129,30 @@ a:hover,
 .email-form {
     font-size: 1.5em;
     text-align: center;
-    background: #fff;
-    padding: 5vh 5vw;
+    background: transparent;
+    padding: 5vh 5vw 2.5vh;
     margin-top: 5vh;
-    border: 1px solid #1f00ce;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #1f00ce;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0;
 }
 
 .email-form:focus {
     text-align: center;
-    background: #fff;
-    padding: 5vh 5vw;
+    background: transparent;
+    padding: 5vh 5vw 2.5vh;
     margin-top: 5vh;
-    border: 1px solid #00ffc8;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #00ffc8;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0;
 }
+
 
 .question-box {
     color: #000;
