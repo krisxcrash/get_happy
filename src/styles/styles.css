@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
 .main-container {
     color: #fff;
     background: #000;
@@ -7,13 +12,15 @@
     margin: 0 auto;
 }
 
+/* Navbar */
+
 .custom-navbar {
     color: #ff33cc;
     font-size: 3rem;
     text-align: center;
     background: #fff;
     padding: 2vh;
-    margin-bottom: 5vh;
+    margin-bottom: 15vh;
 }
 
 a, 
@@ -32,6 +39,37 @@ a:hover,
     text-decoration: line-through;
 }
 
+/* Homepage */
+
+.home-jumbo {
+    text-align: center;
+    border-radius: 0;
+}
+
+.home-header {
+    font-size: 7em;
+    margin-bottom: 5vh;
+}
+
+.btn-custom {
+    color: #fff;
+    background: #000;
+    border: 1px solid #ff33cc;
+    margin: 2vh;
+}
+
+.h2-header {
+    margin-bottom: 3vh;
+}
+
+.hm {
+    text-transform: uppercase;
+    color: #fbff00;
+    background: #ff33cc;
+    padding: 1.5vh;
+}
+
+/* Sign Up */
 .email-form {
     background: #666;
 }
