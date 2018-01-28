@@ -116,7 +116,7 @@ a:hover,
     color: #000;
     background: #fff;
     height: 100vh;
-    padding-top: 25vh;
+    padding-top: 15vh;
 }
 
 .details-div {
@@ -163,7 +163,7 @@ a:hover,
     border-radius: 0;
 }
 
-
+/* Questions */
 .question-box {
     color: #000;
     background: #fff;
@@ -173,4 +173,5 @@ a:hover,
     height: 60vh;
     padding: 10vh 10vw;
     margin: 0 auto;
+    margin-top: 15vh;
 }
