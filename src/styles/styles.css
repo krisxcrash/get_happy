@@ -48,7 +48,10 @@ a:hover,
 
 .home-header,
 .about-header {
+    text-transform: uppercase;
+    letter-spacing: .5vh;
     font-size: 7em;
+    padding-top: 10vh;
     margin-bottom: 5vh;
 }
 
@@ -69,14 +72,15 @@ a:hover,
 }
 
 .h2-header{
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
 }
 
 .hm {
-    text-transform: uppercase;
-    color: #1f00ce;
-    background: #00ffc8;
-    padding: 1.5vh;
+    text-transform: titlecase;
+    color: #00ffc8;
+    /* background: #00ffc8;
+    padding: 1.5vh; */
+    font-weight: 600;
 }
 
 /* About */
@@ -122,5 +126,29 @@ a:hover,
 
 /* Sign Up */
 .email-form {
-    background: #666;
+    font-size: 1.5em;
+    text-align: center;
+    background: #fff;
+    padding: 5vh 5vw;
+    margin-top: 5vh;
+    border: 1px solid #1f00ce;
+}
+
+.email-form:focus {
+    text-align: center;
+    background: #fff;
+    padding: 5vh 5vw;
+    margin-top: 5vh;
+    border: 1px solid #00ffc8;
+}
+
+.question-box {
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border: 2px solid #00ffc8;
+    width: 60vw;
+    height: 60vh;
+    padding: 10vh 10vw;
+    margin: 0 auto;
 }
