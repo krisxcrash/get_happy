@@ -15,7 +15,7 @@
 /* Navbar */
 
 .custom-navbar {
-    color: #ff33cc;
+    color: #00ffc8;
     font-size: 3rem;
     text-align: center;
     background: #fff;
@@ -34,7 +34,7 @@ a,
 
 a:hover,
 .nav-links:hover {
-    color: #ff33cc;
+    color: #00ffc8;
     font-size: 3rem;
     text-decoration: line-through;
 }
@@ -54,10 +54,18 @@ a:hover,
 
 .btn-custom {
     color: #fff;
+    font-size: 1.3em;
     background: #000;
-    border: 1px solid #ff33cc;
+    border: 1px solid #00ffc8;
     margin: 2vh;
     border-radius: 0;
+}
+
+.btn-custom:hover {
+    font-size: 1.3em;
+    color: #00ffc8;
+    border: 1px solid #1f00ce;
+    text-decoration: line-through;
 }
 
 .h2-header{
@@ -66,8 +74,8 @@ a:hover,
 
 .hm {
     text-transform: uppercase;
-    color: #fbff00;
-    background: #ff33cc;
+    color: #1f00ce;
+    background: #00ffc8;
     padding: 1.5vh;
 }
 
@@ -84,7 +92,7 @@ a:hover,
 
 .arrow {
     font-size: 6em;
-    color: #ff33cc;
+    color: #00ffc8;
     margin: 155vh 0;
 
 }
@@ -94,6 +102,22 @@ a:hover,
     background: #fff;
     height: 100vh;
     padding-top: 25vh;
+}
+
+.details-div {
+    text-align: left;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.span-title {
+    color: #00ffc8;
+    background: #1f00ce;
+    padding: 1vh;
+}
+.p-about {
+    font-size: 2em;
+    padding: 1vh;
 }
 
 /* Sign Up */
