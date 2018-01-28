@@ -1,7 +1,14 @@
-#app {
-    background: #999;
+.main-container {
+    color: #fff;
+    background: #000;
+    height: 100vh;
+    width: 100vw;
 }
 
 nav {
     margin-bottom: 5vh;
+}
+
+.email-form {
+    background: #666;
 }
