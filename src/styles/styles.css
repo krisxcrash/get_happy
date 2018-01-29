@@ -105,7 +105,11 @@ a:hover,
     background-position: center center;
     background-size: 100%;
     height: 110vh;
-    padding-top: 25vh;
+    padding-top: 23vh;
+}
+
+.about-header {
+    margin-top: 0;
 }
 
 .h2-about{
