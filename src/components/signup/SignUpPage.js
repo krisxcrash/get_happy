@@ -13,7 +13,7 @@ class SignUpPage extends React.Component {
         const components = [Q1Name, Q2Birthday, Q3City, Q5Setting, Q6Length, Q7Email];
         const componentsToRender = components.map((Component, i) => (
             <Component key={i} />
-          ));
+        ));
 
         return (
             <div className = "container-fluid">

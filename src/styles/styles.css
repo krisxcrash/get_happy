@@ -48,14 +48,15 @@ a:hover,
 }
 
 .home-jumbo {
-    background: url('https://i.pinimg.com/originals/59/02/bb/5902bbf15f314210b2268d6a3d39a439.jpg') fixed no-repeat;
+    background: 
+        linear-gradient(
+            rgba(31, 0, 206, 0.45), 
+            rgba(31, 0, 206, 0.45)
+        ), 
+      url('http://i.imgur.com/oFI1Hyk.jpg') fixed no-repeat;
     background-position: center bottom;
     background-size: 100%;
-    padding: 25vh;
-}
-
-.home-header {
-    padding-top: 10vh;
+    padding: 20vh 25vw 30vh;
 }
 
 .home-header,
@@ -78,7 +79,7 @@ a:hover,
 .btn-custom:hover {
     font-size: 1.3em;
     color: #00ffc8;
-    border: 1px solid #1f00ce;
+    border: 1px solid rgb(31, 0, 206);
     text-decoration: line-through;
 }
 
@@ -89,8 +90,6 @@ a:hover,
 .hm {
     text-transform: titlecase;
     color: #00ffc8;
-    /* background: #00ffc8;
-    padding: 1.5vh; */
     font-weight: 600;
 }
 
@@ -98,7 +97,7 @@ a:hover,
 
 .about-jumbo {
     background: #000;
-    height: 100vh;
+    height: 110vh;
     margin-top: 25vh;
 }
 .h2-about{
@@ -176,10 +175,6 @@ a:hover,
     margin-top: 15vh;
 }
 
-/* .sub-buttons {
-    width: 60vw;
-} */
-
 .questions {
     transition: transform 500ms ease-in-out;
 }
@@ -189,7 +184,7 @@ a:hover,
     font-size: 1.3em;
     background: #000;
     border: 1px solid #00ffc8;
-    margin: .5vh 1vw;
+    margin: .5vh .5vw;
     border-radius: 0;
 }
 
