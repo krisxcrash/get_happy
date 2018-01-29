@@ -16,7 +16,7 @@ class SignUpPage extends React.Component {
         ));
 
         return (
-            <div className = "container-fluid">
+            <div className = "container-fluid signup-page">
                 <div className = "question-box">
                     {componentsToRender}
                 </div>
