@@ -9,7 +9,7 @@ class Q3City extends React.Component {
                     <div className="form-group">
                         <input type="city" className="form-control custom-form" id="cityInput" aria-describedby="city" placeholder="Anywhere, CA" />
                     </div>
-                    <button type="submit" className="btn btn-custom btn-lg">Next Question!</button>
+                    {/* <button type="submit" className="btn btn-custom btn-lg">Next Question!</button> */}
                 </form>
             </div>
         );

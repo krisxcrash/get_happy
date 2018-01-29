@@ -4,11 +4,12 @@ class Q4YouReady extends React.Component {
     render() {
         return (
             <div className="questions">
-                <h1 id="question-h1"></h1>
+                <h1 id="question-h1">Tell us a little about yourself.</h1>
                 <form>
                     <div className="form-group">
-                        <input type="email" className="form-control custom-form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com" />
+                        <input type="text" className="form-control custom-form" id="aboutInput" aria-describedby="text" placeholder="I love photography and am a seasoned traveler.. " />
                     </div>
+                    {/* <button type="submit" className="btn btn-custom btn-lg">Next Question!</button> */}
                 </form>
             </div>
         );

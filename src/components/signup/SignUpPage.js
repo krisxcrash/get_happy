@@ -21,7 +21,7 @@ class SignUpPage extends React.Component {
         });
     }
     render() {
-        const components = [Q1Name, Q2Birthday, Q3City, Q5Setting, Q6Length, Q7Email];
+        const components = [Q1Name, Q2Birthday, Q3City, Q4YouReady, Q5Setting, Q6Length, Q7Email];
         const componentsToRender = components.map((Component, i) => (
             <Component key={i} style={this.props.style} onNext={this.nextSlide.bind(this)} />
         ));

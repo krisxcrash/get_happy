@@ -193,6 +193,18 @@ a:hover,
     padding: 10vh 10vw;
     margin: 0 auto;
     margin-top: 15vh;
+    /* overflow: scroll; */
+}
+
+.questions {
+    /* padding: 10vh 1vw; */
+    margin: 10vh 0;
+    /* border: 1px solid #00ffc8; */
+}
+
+.q1 {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .btn-custom-select {
@@ -210,6 +222,8 @@ a:hover,
     border: 1px solid #1f00ce;
     text-decoration: line-through;
 }
+
+
 
 /* question transitions */
 
