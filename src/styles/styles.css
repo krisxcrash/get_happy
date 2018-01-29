@@ -176,6 +176,10 @@ a:hover,
     margin-top: 15vh;
 }
 
+/* .sub-buttons {
+    width: 60vw;
+} */
+
 .questions {
     transition: transform 500ms ease-in-out;
 }
@@ -185,7 +189,7 @@ a:hover,
     font-size: 1.3em;
     background: #000;
     border: 1px solid #00ffc8;
-    margin: .5vh 3vw;
+    margin: .5vh 1vw;
     border-radius: 0;
 }
 
