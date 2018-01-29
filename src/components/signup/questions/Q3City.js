@@ -3,12 +3,13 @@ import React from 'react';
 class Q3City extends React.Component {
     render() {
         return (
-            <div className="question-box">
-                <h1 id="question-h1">What is your email?</h1>
+            <div className="questions">
+                <h1 id="question-h1">Where do you live?</h1>
                 <form>
                     <div className="form-group">
-                        <input type="email" className="form-control email-form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com" />
+                        <input type="city" className="form-control custom-form" id="cityInput" aria-describedby="city" placeholder="Anywhere, CA" />
                     </div>
+                    <button type="submit" className="btn btn-custom btn-lg">Next Question!</button>
                 </form>
             </div>
         );
