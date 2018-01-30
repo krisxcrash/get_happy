@@ -7,28 +7,39 @@ import Q5Setting from './questions/Q5Setting';
 import Q6Length from './questions/Q6Length';
 import Q7Email from './questions/Q7Email';
 
-class SignUpPage extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    const components = [Q1Name, Q2Birthday, Q3City, Q4YouReady, Q5Setting, Q6Length, Q7Email];
+    const componentsToRender = components.map((Component, i) => (
+        <Component key={i} />
+    ));
 
-    render() {
-        const components = [Q1Name, Q2Birthday, Q3City, Q4YouReady, Q5Setting, Q6Length, Q7Email];
-        const componentsToRender = components.map((Component, i) => (
-            <Component key={i} />
-        ));
+    class SignUpPage extends React.Component {
+        constructor(props) {
+            super(props);
+            
+            this.state = {
+                i: 0
+            }
+        }
+        
+        _handleClick() {
+            console.log('click worked')
+            if(this.state.i < components.length) this.setState({ i : this.state.i + 1});
+        }
 
-        let i=0;
+        //  handleIncrement() {
+        //         this.setState({ count: this.state.count + 1});
+        //     }}
 
-        return (
-            <div className = "container-fluid signup-page">
-                <div className = "question-box">
-                    {componentsToRender[i]}
-                    <button type="submit" className="btn btn-custom btn-lg" onClick={handleClick => { i++; if (i < components.length) {console.log(i);  console.log(componentsToRender[i]);}}}>Next Question!</button>
+        render() {
+            return (
+                <div className = "container-fluid signup-page">
+                    <div className = "question-box">
+                        {componentsToRender[this.state.i]}
+                        <button type="submit" className="btn btn-custom btn-lg" onClick={() => this._handleClick}>Next Question!</button>
+                    </div>
                 </div>
-            </div>
-        );
+            );
+        }
     }
-}
 
-export default SignUpPage;
+    export default SignUpPage;
