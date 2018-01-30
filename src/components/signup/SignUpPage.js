@@ -24,11 +24,11 @@ import Thanks from './questions/Thanks';
 
         _handleClick(event) {
             event.preventDefault();
-            if(this.state.i < components.length) {
+            if(this.state.i < components.length - 1) {
                 this.setState({ i : this.state.i + 1});
             } 
             else {
-               console.log('stop') ;
+                //hide button
             }
         }
         render() {
@@ -36,7 +36,7 @@ import Thanks from './questions/Thanks';
                 <div className = "container-fluid signup-page">
                     <div className = "question-box">
                         {componentsToRender[this.state.i]}
-                        <button type="submit" className="btn btn-custom btn-lg" id={this.state} onClick={this._handleClick}>Next Question!</button>
+                        <button type="submit" className="btn btn-custom btn-lg" onClick={this._handleClick}>Next Question!</button>
                     </div>
                 </div>
             );

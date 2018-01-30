@@ -204,7 +204,9 @@ a:hover,
     margin: 10vh 0;
 }
 
-
+#button8 {
+    display: none;
+}
 
 .btn-custom-select {
     color: #fff;
