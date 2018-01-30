@@ -19,23 +19,27 @@ import Q7Email from './questions/Q7Email';
             this.state = {
                 i: 0
             }
-        }
-        
-        _handleClick() {
-            console.log('click worked')
-            if(this.state.i < components.length) this.setState({ i : this.state.i + 1});
-        }
 
-        //  handleIncrement() {
-        //         this.setState({ count: this.state.count + 1});
-        //     }}
-
+            this._handleClick = this._handleClick.bind(this);
+        }
+        _handleClick(event) {
+            
+            event.preventDefault();
+            if(this.state.i < components.length) {
+                this.setState({ i : this.state.i + 1});
+            } 
+            else {
+               console.log('stop') ;
+            }
+            
+            
+        }
         render() {
             return (
                 <div className = "container-fluid signup-page">
                     <div className = "question-box">
                         {componentsToRender[this.state.i]}
-                        <button type="submit" className="btn btn-custom btn-lg" onClick={() => this._handleClick}>Next Question!</button>
+                        <button type="submit" className="btn btn-custom btn-lg" onClick={this._handleClick}>Next Question!</button>
                     </div>
                 </div>
             );

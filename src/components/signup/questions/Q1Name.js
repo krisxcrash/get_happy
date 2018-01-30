@@ -1,10 +1,10 @@
 import React from 'react';
 
 class Q1Name extends React.Component {
-    handleSubmit(event) {
-        event.preventDefault();
-        this.props.onNext();
-    }
+    // handleSubmit(event) {
+    //     event.preventDefault();
+    //     this.props.onNext();
+    // }
 
     render() {
         return (
