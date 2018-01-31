@@ -25,6 +25,7 @@ class SignUpPage extends React.Component {
 
     _handleClick(event) {
         event.preventDefault();
+        
         if(this.state.i < components.length - 1) {
             this.setState({ i : this.state.i + 1});
         } 

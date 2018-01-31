@@ -9,7 +9,6 @@ class Q7Email extends React.Component {
                     <div className="form-group">
                         <input type="email" className="form-control custom-form" id="InputEmail" aria-describedby="emailHelp" placeholder="" />
                     </div>
-                    {/* <button type="submit" className="btn btn-custom btn-lg">Get My Results!</button> */}
                 </form>
             </div>
         );

@@ -200,16 +200,6 @@ a:hover,
     /* overflow: scroll; */
 }
 
-.questions {
-    margin: 10vh 0;
-    transition: .5s cubic-bezier(0, 1, 0.5, 1);
-    transform: translate3d(0, 0, 0);
-}
-
-#button8 {
-    display: none;
-}
-
 .btn-custom-select {
     color: #fff;
     font-size: 1.3em;
@@ -226,12 +216,10 @@ a:hover,
     text-decoration: line-through;
 }
 
-
-
 /* question transitions */
 
 .questions {
-
+    margin: 10vh 0;
     position: relative;
     left: -300px;
     width: 100%;
