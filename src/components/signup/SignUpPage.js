@@ -38,7 +38,7 @@ class SignUpPage extends React.Component {
             <div className = "container-fluid signup-page">
                 <div className = "question-box">
                     {componentsToRender[this.state.i]}
-                    <button type="submit" className="btn btn-custom btn-lg btn-submit" onClick={this._handleClick}>>></button>
+                    <button type="submit" className="btn btn-custom btn-lg btn-submit" onClick={this._handleClick}>Next!</button>
                 </div>
             </div>
         );

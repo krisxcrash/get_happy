@@ -9,7 +9,6 @@ class Q4YouReady extends React.Component {
                     <div className="form-group">
                         <input type="text" className="form-control custom-form" id="aboutInput" aria-describedby="text" placeholder="I love photography and am a seasoned traveler.. " />
                     </div>
-                    {/* <button type="submit" className="btn btn-custom btn-lg">Next Question!</button> */}
                 </form>
             </div>
         );

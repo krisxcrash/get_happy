@@ -9,7 +9,6 @@ class Q2Birthday extends React.Component {
                     <div className="form-group">
                         <input type="date" className="form-control custom-form" id="birthdayInput" aria-describedby="birthday" placeholder="" />
                     </div>
-                    {/* <button type="submit" className="btn btn-custom btn-lg">Next Question!</button> */}
                 </form>
             </div>
         );
