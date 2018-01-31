@@ -28,9 +28,6 @@ class SignUpPage extends React.Component {
         
         if(this.state.i < components.length - 1) {
             this.setState({ i : this.state.i + 1});
-        } 
-        else {
-            //hide button
         }
     }
     render() {
@@ -38,7 +35,11 @@ class SignUpPage extends React.Component {
             <div className = "container-fluid signup-page">
                 <div className = "question-box">
                     {componentsToRender[this.state.i]}
-                    <button type="submit" className="btn btn-custom btn-lg btn-submit" onClick={this._handleClick}>Next!</button>
+                    <input 
+                        type="submit" 
+                        className="btn btn-custom btn-lg btn-submit" 
+                        onClick={this._handleClick}
+                        value={(componentsToRender[this.state.i] === componentsToRender[7]) ? 'YAY!' : 'Next Question!'} /> 
                 </div>
             </div>
         );
