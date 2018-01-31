@@ -45,6 +45,7 @@ a:hover,
 .home-jumbo,
 .about-jumbo {
     text-align: center;
+
 }
 
 .home-jumbo {
@@ -65,6 +66,22 @@ a:hover,
     letter-spacing: .5vh;
     font-size: 7em;
     margin-bottom: 5vh;
+    -webkit-animation: 1s .25s fade backwards ease-out;
+    animation: 1s .25s fade backwards ease-out;
+}
+
+.h2-header, 
+.h2-about{
+    margin-bottom: 5vh;
+    -webkit-animation: .5s .5s fade backwards ease-out;
+    animation: .5s .5s fade backwards ease-out;
+}
+
+@keyframes fade {
+    0% {
+        transform: translateY(.25em);
+        opacity: 0;
+    }
 }
 
 .btn-custom {
@@ -81,10 +98,6 @@ a:hover,
     color: #00ffc8;
     border: 1px solid rgb(31, 0, 206);
     text-decoration: line-through;
-}
-
-.h2-header{
-    margin-bottom: 5vh;
 }
 
 .hm {
@@ -226,7 +239,6 @@ a:hover,
     height: 100px;
     -webkit-animation: slide 0.5s forwards;
     animation: slide 0.5s forwards;
-
 }
 
 @-webkit-keyframes slide {
