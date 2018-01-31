@@ -66,15 +66,21 @@ a:hover,
     letter-spacing: .5vh;
     font-size: 7em;
     margin-bottom: 5vh;
-    -webkit-animation: 1s .25s fade backwards ease-out;
-    animation: 1s .25s fade backwards ease-out;
+    -webkit-animation: 1.25s .25s fade backwards ease-out;
+    animation: 1.25s .25s fade backwards ease-out;
 }
 
 .h2-header, 
-.h2-about{
+.h2-about {
     margin-bottom: 5vh;
-    -webkit-animation: .5s .5s fade backwards ease-out;
-    animation: .5s .5s fade backwards ease-out;
+    -webkit-animation: .75s .5s fade backwards ease-out;
+    animation: .75s .5s fade backwards ease-out;
+}
+
+.btn-home {
+    margin-bottom: 5vh;
+    -webkit-animation: .5s .75s fade backwards ease-out;
+    animation: .5s .75s fade backwards ease-out;
 }
 
 @keyframes fade {
