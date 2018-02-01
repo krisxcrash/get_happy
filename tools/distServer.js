@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import open from 'open';
+import favicon from 'serve-favicon';
 
 /* eslint-disable no-console */
 
@@ -14,6 +15,8 @@ app.get('*', function(req, res) {
 });
 
 app.use(express.static(__dirname + '/'));
+
+app.use(favicon(path.join(__dirname, 'dist', 'favicon.ico')))
 
 app.listen(process.env.PORT || 8080);
 

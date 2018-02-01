@@ -32,6 +32,7 @@
         "react-transition-group": "^1.2.1",
         "redux": "3.5.2",
         "redux-thunk": "2.0.1",
+        "serve-favicon": "^2.4.5",
         "toastr": "2.1.2"
     },
     "devDependencies": {
