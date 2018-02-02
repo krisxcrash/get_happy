@@ -4,7 +4,7 @@ import open from 'open';
 
 /* eslint-disable no-console */
 
-const port = 8080;
+const PORT = 8080;
 const app = express();
 
 app.use(express.static('dist'));
@@ -13,13 +13,13 @@ app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 
-// app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 8080);
 
-app.listen(port, function(err) {
-    if (err) {
-        console.log(err);
-    } 
-    else {
-        open(`http://localhost:${port}`);
-    }
-});
+// app.listen(port, function(err) {
+//     if (err) {
+//         console.log(err);
+//     } 
+//     else {
+//         open(`http://localhost:${port}`);
+//     }
+// });
