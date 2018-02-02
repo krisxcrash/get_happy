@@ -13,7 +13,7 @@ app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 5000);
 
 // app.listen(port, function(err) {
 //     if (err) {
