@@ -1,2 +1,2 @@
 # get_happy
-Built using React.js
+A demo sign up flow built using React.js
